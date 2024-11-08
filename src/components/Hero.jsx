@@ -2,12 +2,12 @@ const Hero = () => {
   return (
     <section className="bg-[#051d40] pt-12">
       {/* Deep Dive into our Annaly Trade Capital */}
-      <div className=" grid  justify-items-center items-center ">
-        <h2 className="text-[#ff6100] font-bold w-3/4 text-center leading-10 text-3xl lg:text-5xl">
+      <div className=" grid  justify-items-center  items-center ">
+        <h2 className="text-[#ff6100] font-bold w-3/4 max-w-[1440px] text-center leading-10 text-3xl lg:text-5xl">
           {" "}
           Deep Dive into our Annaly Trade Capital{" "}
         </h2>
-        <div className="text-white w-3/4 mt-8 lg:mt-[76.8px] text-lg 2xl:text-[33.2px]">
+        <div className="text-white max-w-[1440px] w-3/4 mt-8 lg:mt-[76.8px] text-lg 2xl:text-[33.2px]">
           <p className="mb-[36.8px] font-bold">
             Annaly Trade Capital (ATCAPITAL) is a premier, diversified capital
             management firm with a broad range of investment strategies focused
@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className=" grid justify-items-center w-3/4 items-center ">
-          <h2 className="text-[#d47f4a] font-bold w-3/4 text-center leading-10 text-2xl lg:text-5xl">
+        <div className=" grid justify-items-center max-w-[1440px] w-3/4 items-center ">
+          <h2 className="text-[rgb(212,127,74)] font-bold mt-20 text-center leading-10 text-xl lg:text-5xl">
             BENEFITS OF OUR DIVERSIFIED INVESTMENTS FOR PRIVATE INVESTORS
           </h2>
           <div className="text-white mt-8 lg:mt-[76.8px] text-lg 2xl:text-[33.2px]">
@@ -61,7 +61,7 @@ const Hero = () => {
               benchmarks:
             </p>
 
-            <div className="flex gap-3 -ml-8">
+            <div className="flex my-5 gap-3 -ml-8">
               <p className="text-[#4bd1fb] ">01</p>
               <p>
                 <span className="text-[#d59141]">
@@ -72,7 +72,7 @@ const Hero = () => {
                 stock and bond markets.
               </p>
             </div>
-            <div className="flex gap-3 -ml-8">
+            <div className="flex mb-5 gap-3 -ml-8">
               <p className="text-[#4bd1fb] ">02</p>
               <p>
                 <span className="text-[#d59141]">- Downside protection:</span>{" "}
@@ -82,7 +82,7 @@ const Hero = () => {
                 mitigating losses during bear phases
               </p>
             </div>
-            <div className="flex gap-3 -ml-8">
+            <div className="flex mb-5 gap-3 -ml-8">
               <p className="text-[#4bd1fb] ">03</p>
               <p>
                 <span className="text-[#d59141]">
@@ -95,7 +95,7 @@ const Hero = () => {
                 geographies
               </p>
             </div>
-            <div className="flex gap-3 -ml-8">
+            <div className="flex mb-5 gap-3 -ml-8">
               <p className="text-[#4bd1fb] ">04</p>
               <p>
                 <span className="text-[#d59141]">
@@ -110,6 +110,22 @@ const Hero = () => {
           </div>
         </div>
         {/* end */}
+      </div>
+
+      <div className="bg-[#145DA0] flex justify-center items-center ">
+        <div className=" w-3/4 lg:w-2/4 bg-[#00000077] mt-10">
+          <h2 className="text-[rgb(212,127,74)] font-bold mt-20 uppercase text-center leading-10 text-lg lg:text-2xl">
+            Diversification and Asset Allocation
+          </h2>
+          <p className="text-white px-5 text-lg 2xl:text-[33.2px]">
+            In our investment strategies, diversification and asset allocation
+            are critical components to managing risk and enhancing returns.
+            Unlike mutual funds or other traditional investment vehicles that
+            may be concentrated in a particular asset class or region, our
+            approach spans a wide variety of sectors and geographies. Asset
+            Classes We Allocate To Include:
+          </p>
+        </div>
       </div>
     </section>
   );
