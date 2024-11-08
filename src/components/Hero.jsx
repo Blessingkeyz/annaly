@@ -1,92 +1,115 @@
 const Hero = () => {
   return (
-    <section className="pt-8">
-      <div className="container  mx-auto items-center justify-items-center">
-        {/* Hero Text */}
-        <div className="text-center">
-          <h1 className="text-4xl text-blue-900 font-extrabold mb-4">
-            Fulfill Your Shopping
-            <br /> Dreams with World Mart
-          </h1>
-          <p className="mb-6 text-gray-600">
-            Dive into a world of endless possibilities as you explore our
-            curated collections <br /> tailored to your unique style. From
-            everyday essentials to timeless classics, <br /> we’ve got you
-            covered. Enjoy seamless browsing.
+    <section className="bg-[#051d40] pt-12">
+      {/* Deep Dive into our Annaly Trade Capital */}
+      <div className=" grid  justify-items-center items-center ">
+        <h2 className="text-[#ff6100] font-bold w-3/4 text-center leading-10 text-3xl lg:text-5xl">
+          {" "}
+          Deep Dive into our Annaly Trade Capital{" "}
+        </h2>
+        <div className="text-white w-3/4 mt-8 lg:mt-[76.8px] text-lg 2xl:text-[33.2px]">
+          <p className="mb-[36.8px] font-bold">
+            Annaly Trade Capital (ATCAPITAL) is a premier, diversified capital
+            management firm with a broad range of investment strategies focused
+            on the finance market. Our approach leverages industry expertise to
+            provide sustainable growth and robust financial solutions for our
+            clients. At Annaly Trade Capital, we are your trusted partner in
+            private investments, dedicated to delivering sustainable yield and
+            attractive returns through market cycles. With over 25 years of
+            experience, we lead the residential mortgage finance market with $12
+            billion in permanent capital and a portfolio of diversified
+            investment strategies.
+          </p>
+          <p className="font-bold">
+            At our Annaly, we utilize multi-strategy hedge fund models that
+            allow for agility and flexibility. Unlike traditional investment
+            funds, which may be confined to specific sectors or asset classes,
+            hedge funds can deploy capital wherever market opportunities arise.
+            This freedom, combined with our analytical rigor, enables us to
+            capitalize on market inefficiencies, take advantage of arbitrage
+            opportunities, and hedge against downside risks.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="space-x-4">
-            <button className="bg-blue-800 text-white px-6 py-3 rounded-md hover:bg-blue-700">
-              View Products
-            </button>
-            <button className="bg-white text-blue-800 px-6 py-3 border-solid border-blue-700 rounded-md hover:bg-gray-300">
-              Exciting Offers
-            </button>
+          <p>Our Hedge Fund Models Focus On:</p>
+          <div>
+            <span className="text-[#d59141]">
+              - Absolute return strategies:
+            </span>{" "}
+            We aim to deliver positive returns in any market condition by
+            employing hedging techniques and risk management tools.
+          </div>
+          <div>
+            <span className="text-[#d59141] ">- Active management: </span>
+            Our team constantly monitors and adjusts positions to respond
+            dynamically to market conditions.
+          </div>
+          <div>
+            <span className="text-[#d59141]">- Leverage and derivatives:</span>{" "}
+            While carefully controlled, we use leverage and derivatives to
+            enhance returns and mitigate risks.
           </div>
         </div>
-      </div>
 
-      {/* Hero Image
-      <div className="flex ">
-        <div className="flex  justify-between ">
-          <img
-            src="/cart.png"
-            alt="Shopping Dream Image"
-            className="mx-auto w-full "
-          />
-          <img
-            src="/man.png"
-            alt="Shopping Guy Image"
-            className="mx-auto  w-full "
-          />
-        </div>
-        <div className="rounded-lg ml-auto text-white bg-blue-800 w-max">
-          <div className=" ">
-            <span className="opacity-5 rotate-90 ">WORLD MART</span>
-            <br />
-            <span className="opacity-45 rotate-90">WORLD MART</span>
-            <br />
-            <span className="opacity-70 rotate-90">WORLD MART</span>
-            <br />
-            <span className="opacity-100 rotate-90">WORLD MART</span>
-          </div>
-        </div>
-      </div> */}
-      <div className="flex justify-between items-center relative">
-        {/* Cart Image */}
-        <div className="w-1/2">
-          <img src="/cart.png" alt="Shopping Dream Image" className="mx-auto" />
-        </div>
+        <div className=" grid justify-items-center w-3/4 items-center ">
+          <h2 className="text-[#d47f4a] font-bold w-3/4 text-center leading-10 text-2xl lg:text-5xl">
+            BENEFITS OF OUR DIVERSIFIED INVESTMENTS FOR PRIVATE INVESTORS
+          </h2>
+          <div className="text-white mt-8 lg:mt-[76.8px] text-lg 2xl:text-[33.2px]">
+            <p className="font-bold">
+              Our diversified investment portfolio offer a range of benefits for
+              private investors seeking to outperform traditional market
+              benchmarks:
+            </p>
 
-        {/* Man Image */}
-        <div className="relative w-1/2">
-          <img
-            src="/man.png"
-            alt="Shopping Guy Image"
-            className="absolute bottom-0 right-20 transform -translate-y-8"
-          />
-        </div>
-
-        {/* Rotated Text Box */}
-        <div className="flex justify-end h-full">
-          <div className="relative bg-blue-800 text-white p-4">
-            <div className="absolute top-1/2 transform -translate-y-1/2 right-0 flex flex-col items-center">
-              <span className="transform rotate-90 text-opacity-5 text-3xl mb-2">
-                WORLD MART
-              </span>
-              <span className="transform rotate-90 text-opacity-45 text-3xl mb-2">
-                WORLD MART
-              </span>
-              <span className="transform rotate-90 text-opacity-70 text-3xl mb-2">
-                WORLD MART
-              </span>
-              <span className="transform rotate-90 text-opacity-100 text-3xl">
-                WORLD MART
-              </span>
+            <div className="flex gap-3 -ml-8">
+              <p className="text-[#4bd1fb] ">01</p>
+              <p>
+                <span className="text-[#d59141]">
+                  - Reduced correlation to traditional markets:
+                </span>{" "}
+                We provide exposure to alternative assets and strategies, which
+                means performance is less dependent on the rise and fall of
+                stock and bond markets.
+              </p>
+            </div>
+            <div className="flex gap-3 -ml-8">
+              <p className="text-[#4bd1fb] ">02</p>
+              <p>
+                <span className="text-[#d59141]">- Downside protection:</span>{" "}
+                One of the key advantages is the ability to protect capital
+                during downturns. Through short selling, hedging, and options
+                strategies, hedge funds can profit even in declining markets,
+                mitigating losses during bear phases
+              </p>
+            </div>
+            <div className="flex gap-3 -ml-8">
+              <p className="text-[#4bd1fb] ">03</p>
+              <p>
+                <span className="text-[#d59141]">
+                  - Access to diverse asset classes:
+                </span>{" "}
+                Our strategies offer exposure to a wide array of asset classes
+                such as real estate, digital currencies, private equity,
+                commodities, and more. This diversification enables our clients
+                to benefit from opportunities in different sectors and
+                geographies
+              </p>
+            </div>
+            <div className="flex gap-3 -ml-8">
+              <p className="text-[#4bd1fb] ">04</p>
+              <p>
+                <span className="text-[#d59141]">
+                  - Enhanced returns through active management:
+                </span>{" "}
+                We focus on generating alpha, or excess returns over the market
+                average, by identifying undervalued assets and exploiting
+                temporary inefficiencies in the market. Our active management
+                ensures that we’re always adjusting to capture maximum value.
+              </p>
             </div>
           </div>
         </div>
+        {/* end */}
       </div>
     </section>
   );
